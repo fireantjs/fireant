@@ -6,7 +6,7 @@ Simple JavaScript Task Runner.
 
 ```shell
 npm install -g fireant-cli
-npm install fireant --save
+npm install -D fireant
 touch fireantfile.js
 ```
 
