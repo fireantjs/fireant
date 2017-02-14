@@ -62,7 +62,7 @@ fireant.task('watch', function() {
     	stylus("css/index.styl").save("html/css/styles.css");
 	});
 
-	fireant.watch("js/*.styl", function(file) {
+	fireant.watch("js/*.js", function(file) {
 		uglify([
             'js/common.js',
             'js/app.js'
