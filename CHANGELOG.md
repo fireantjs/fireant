@@ -1,6 +1,9 @@
 ## Change Log
 
-### upcoming (2017/02/15 07:57 +00:00)
+### v0.0.6 (2017/02/15 09:13 +00:00)
+- [95a5611](https://github.com/fireantjs/fireant/commit/95a5611fce7f932c0106784ca8df0a82dbe2eb03) 0.0.6 (@jarilehtinen)
+- [87933ac](https://github.com/fireantjs/fireant/commit/87933aca61151211e148f8a4b45e7c783701c214) Fixed mixed quotes (@jarilehtinen)
+- [6d00537](https://github.com/fireantjs/fireant/commit/6d0053725fe74d87b0120b8abdad73c74981089d) Updated changelog (@jarilehtinen)
 - [1ad50b6](https://github.com/fireantjs/fireant/commit/1ad50b6466984252eefeb30c9e1a6cbb737804db) Updated changelog (@jarilehtinen)
 
 ### v0.0.5 (2017/02/15 07:01 +00:00)
