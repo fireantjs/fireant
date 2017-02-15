@@ -38,7 +38,7 @@ var global = require('global');
 global.options = { 
     stylus: {
         minify: {
-            enabled: true, // set to false to disable minify
+            disabled: false, // set to true to disable minify
             compatibility: 'ie9',
             keepBreaks: false,
             keepSpecialComments: 0,
@@ -46,6 +46,7 @@ global.options = { 
             sourceMap: false
         },
         autoprefixer: {
+            disabled: false, // set to true to disable minify
             browsers: ['last 2 versions']
         }
     },
@@ -78,4 +79,4 @@ fire watch
 
 ## Thanks
 
-Fireant is inspired by the work of Tero Piirainen on a very early version, also loosely based on the [Gulp.js](https://github.com/gulpjs).
+Fireant is inspired by the work of Tero Piirainen on a very early version. Based on the [Gulp.js](https://github.com/gulpjs).
