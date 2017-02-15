@@ -1,5 +1,10 @@
 ## Change Log
 
+### upcoming (2017/02/15 07:00 +00:00)
+- [d1100df](https://github.com/fireantjs/fireant/commit/d1100df7d323e0e0bf66fb88a22af2986d1fc71e) 0.0.4 (@jarilehtinen)
+- [ac71c87](https://github.com/fireantjs/fireant/commit/ac71c87f2cd993c23b021d10c0eed931e82d1964) Updated to use the new disabling logic (@jarilehtinen)
+- [fd632db](https://github.com/fireantjs/fireant/commit/fd632dbbe1b9dddaa986d96d7737d1f4059b2366) Updated changelog (@jarilehtinen)
+
 ### v0.0.3 (2017/02/14 18:09 +00:00)
 - [195d5ee](https://github.com/fireantjs/fireant/commit/195d5ee34c17cadc12a6a0bf2d0780a31e06b1ef) 0.0.3 (@jarilehtinen)
 - [f1ba7db](https://github.com/fireantjs/fireant/commit/f1ba7dbfaadb1857475be1ffdf0c152d78ab1dc4) Fixed a bug in readme (@jarilehtinen)
