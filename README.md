@@ -46,7 +46,7 @@ global.options = { 
             sourceMap: false
         },
         autoprefixer: {
-            disabled: false, // set to true to disable minify
+            disabled: false, // set to true to disable autoprefixer
             browsers: ['last 2 versions']
         }
     },
