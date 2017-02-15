@@ -1,6 +1,9 @@
 ## Change Log
 
-### upcoming (2017/02/15 07:02 +00:00)
+### upcoming (2017/02/15 07:57 +00:00)
+- [1ad50b6](https://github.com/fireantjs/fireant/commit/1ad50b6466984252eefeb30c9e1a6cbb737804db) Updated changelog (@jarilehtinen)
+
+### v0.0.5 (2017/02/15 07:01 +00:00)
 - [51ab5f6](https://github.com/fireantjs/fireant/commit/51ab5f6f05c4dfb97151106d47e0aa37d508f2c7) 0.0.5 (@jarilehtinen)
 - [bc94ebf](https://github.com/fireantjs/fireant/commit/bc94ebf1426db86f23cd2cff68bdf130c5242ba8) Fixed typo (@jarilehtinen)
 - [c36dfd2](https://github.com/fireantjs/fireant/commit/c36dfd28a63648b7f14e4e051d5e26cfd6ecf8bc) Updated changelog (@jarilehtinen)
