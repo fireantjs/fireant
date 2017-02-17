@@ -1,6 +1,6 @@
 {
   "name": "fireant",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Simple JavaScript Task Runner",
   "main": "index.js",
   "dependencies": {
