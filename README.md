@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/fireantjs/artwork/master/fireant-text-horizontal-small.png" width="500" height="148" alt="Fireant"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/fireantjs/artwork/master/fireant-text-horizontal-small.png" width="400" height="119" alt="Fireant"></p>
 
 # Fireant
 
