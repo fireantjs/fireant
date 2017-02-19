@@ -10,6 +10,7 @@
     "fireant-timestamp": "^1.0.0",
     "gaze": "^1.1.2",
     "global": "^4.3.1",
+    "keypress": "^0.2.1",
     "orchestrator": "^0.3.8",
     "util": "^0.10.3"
   },

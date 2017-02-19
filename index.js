@@ -5,6 +5,7 @@ var timestamp = require('fireant-timestamp');
 var gaze = require('gaze');
 var fs = require('fs');
 var global = require('global');
+var keypress = require('keypress');
 
 require('./lib/fireant-core');
 
@@ -46,5 +47,23 @@ Fireant.prototype.watch = function(globals, callback) {
 
 Fireant.prototype.Fireant = Fireant;
 
+// Listen for keypress events
+keypress(process.stdin);
+
+process.stdin.on('keypress', function (ch, key) {
+    // Pressing "q" exists
+    if (key && key.name == 'q') {
+        process.exit();
+    }
+
+    if (key && key.ctrl && key.name == 'c') {
+        process.exit();
+    }
+});
+
+process.stdin.setRawMode(true);
+process.stdin.resume();
+
+// Assign instance
 var inst = new Fireant();
 module.exports = inst;
