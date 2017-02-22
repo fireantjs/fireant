@@ -1,5 +1,10 @@
 ## Change Log
 
+### v0.0.14 (2017/02/22 10:53 +00:00)
+- [61a91d5](https://github.com/fireantjs/fireant/commit/61a91d5086ff526bb70efe7738871dfa9f922522) 0.0.14 (@jarilehtinen)
+- [ff3ed66](https://github.com/fireantjs/fireant/commit/ff3ed669cf1e03b6b31f94fcf3533e2112e4933b) Updated readme (@jarilehtinen)
+- [db2d918](https://github.com/fireantjs/fireant/commit/db2d9187feced86f87eae86399d91d826ff59d19) Updated changelog (@jarilehtinen)
+
 ### v0.0.13 (2017/02/22 10:31 +00:00)
 - [95c79fe](https://github.com/fireantjs/fireant/commit/95c79fe720391c63386eec3685b80517b73f86f1) 0.0.13 (@jarilehtinen)
 - [#3](https://github.com/fireantjs/fireant/pull/3) Reload (@fireantjs)
