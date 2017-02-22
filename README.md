@@ -2,7 +2,7 @@
 
 # Fireant
 
-Simple JavaScript Task Runner.
+JavaScript Task Runner. Less code, everywhere.
 
 ## Installation
 
@@ -76,8 +76,37 @@ fireant.task("watch", function() {
 ## Usage
 
 ```shell
-fire watch
+fire [tasks]
 ```
+
+## Contributing
+
+Please do.
+
+When developing plugins, keep in mind that every plugin should:
+
+* be able to receive a file name (or an array of filenames) as first argument — or —
+* get the result (string) from previous method if the argument is empty
+
+Like this:
+
+```javascript
+stylus("css/index.styl").autoprefixer().yourplugin().save("html/css/styles.css");
+```
+
+Or:
+
+```javascript
+autoprefixer("css/index.styl").yourplugin().save("html/css/styles.css");
+```
+
+## Release history
+
+- 0.0.13 - Fireant looks for changes in ```fireantfile.js``` and reloads the file
+- 0.0.12 - Press "q" to stop Fireant
+- 0.0.1 - Initial release
+
+See [changelog](https://github.com/fireantjs/fireant/blob/master/CHANGELOG.md) for other changes.
 
 ## Thanks
 
