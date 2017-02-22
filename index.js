@@ -22,8 +22,7 @@ Fireant.prototype.task = Fireant.prototype.add;
 
 // Run task
 Fireant.prototype.run = function() {
-    var tasks = arguments.length ? arguments[0] : false;
-    this.start.apply(this, tasks);
+    this.start.apply(this, arguments[0]);
 };
 
 // Reload tasks
