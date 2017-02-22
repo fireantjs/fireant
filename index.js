@@ -5,7 +5,8 @@ var timestamp = require('fireant-timestamp');
 var gaze = require('gaze');
 var fs = require('fs');
 var global = require('global');
-var keypress = require('keypress');
+var gazes = {}; // Stores all the Gaze instances
+var gazeId = 0;
 
 require('./lib/fireant-core');
 
@@ -21,18 +22,21 @@ Fireant.prototype.task = Fireant.prototype.add;
 
 // Run task
 Fireant.prototype.run = function() {
-    var tasks = arguments.length ? arguments : false;
+    this.start.apply(this, arguments[0]);
+};
 
-    if (tasks) {
-        this.start.apply(this, tasks);
-    } else {
-        console.log(timestamp(), chalk.red('No tasks specified'));
+// Reload tasks
+Fireant.prototype.reload = function() {
+    // Close all previously initialized Gaze instances,
+    // since Gaze doesn't update existing listeners
+    for (var id in gazes) {
+        gazes[id].close();
     }
 };
 
 // Watch function
 Fireant.prototype.watch = function(globals, callback) {
-    gaze(globals, function() {
+    gazes[gazeId] = gaze(globals, function() {
         this.on('all', function(error, file) {
             var start = new Date().getTime();
             console.log(timestamp(), chalk.white('Starting \'') + chalk.cyan('watch') + '\'...');
@@ -43,26 +47,11 @@ Fireant.prototype.watch = function(globals, callback) {
             console.log(timestamp(), chalk.white('Finished \'') + chalk.cyan('watch') + '\' in ' + chalk.yellow(time));
         });
     });
+
+    gazeId++;
 };
 
 Fireant.prototype.Fireant = Fireant;
-
-// Listen for keypress events
-keypress(process.stdin);
-
-process.stdin.on('keypress', function (ch, key) {
-    // Pressing "q" exists
-    if (key && key.name == 'q') {
-        process.exit();
-    }
-
-    if (key && key.ctrl && key.name == 'c') {
-        process.exit();
-    }
-});
-
-process.stdin.setRawMode(true);
-process.stdin.resume();
 
 // Assign instance
 var inst = new Fireant();
