@@ -1,5 +1,39 @@
 ## Change Log
 
+### v0.0.13 (2017/02/22 10:31 +00:00)
+- [95c79fe](https://github.com/fireantjs/fireant/commit/95c79fe720391c63386eec3685b80517b73f86f1) 0.0.13 (@jarilehtinen)
+- [#3](https://github.com/fireantjs/fireant/pull/3) Reload (@fireantjs)
+- [e491e4f](https://github.com/fireantjs/fireant/commit/e491e4f828364b009cec40b66bf4e6294af1a5cd) Removed unnecessary code (@jarilehtinen)
+- [aa1a7e8](https://github.com/fireantjs/fireant/commit/aa1a7e8597d92a7c96084b65ec10eb290148367c) Removed keypress from dependencies (@jarilehtinen)
+- [be6b061](https://github.com/fireantjs/fireant/commit/be6b061dd3f5ed88cd466df8537025e9d0f3769d) Moved keypress to fireant-cli and added reload method (@jarilehtinen)
+
+### v0.0.12 (2017/02/19 11:14 +00:00)
+- [84a56f2](https://github.com/fireantjs/fireant/commit/84a56f29199baf94e60dffb9d368ffa849deb179) 0.0.12 (@jarilehtinen)
+- [#2](https://github.com/fireantjs/fireant/pull/2) Pressing "q" exists the process (@fireantjs)
+- [dff56cb](https://github.com/fireantjs/fireant/commit/dff56cb12d914c07b265b9a9c33776ec33aab355) Pressing "q" exists the process (@jarilehtinen)
+- [#1](https://github.com/fireantjs/fireant/pull/1) Figures (@fireantjs)
+
+### v0.0.11 (2017/02/19 10:55 +00:00)
+- [4f0e42c](https://github.com/fireantjs/fireant/commit/4f0e42c7f86e703b9c908db89d2c081fc8ad5801) 0.0.11 (@jarilehtinen)
+- [214eb01](https://github.com/fireantjs/fireant/commit/214eb01e6eeccf9d830ce09589640042682b201f) Changed not saved error message (@jarilehtinen)
+
+### v0.0.10 (2017/02/19 10:37 +00:00)
+- [18411a9](https://github.com/fireantjs/fireant/commit/18411a9821594abb5e7d9c847b443b7cd6a773c3) 0.0.10 (@jarilehtinen)
+- [0f79d14](https://github.com/fireantjs/fireant/commit/0f79d142a22f7f82c22baa8187cd00dfa9bff32d) Replaced timestamp with fireant-timestamp package (@jarilehtinen)
+
+### v0.0.9 (2017/02/17 09:35 +00:00)
+- [96da3d5](https://github.com/fireantjs/fireant/commit/96da3d5a80e094202c7111a270370435d2c12a2a) 0.0.9 (@jarilehtinen)
+- [95de522](https://github.com/fireantjs/fireant/commit/95de522b8fc9bd562e3e884d234f272b9f7a7018) Made logo a bit smaller (@jarilehtinen)
+
+### v0.0.8 (2017/02/17 08:56 +00:00)
+- [2ba3e22](https://github.com/fireantjs/fireant/commit/2ba3e22002a64fc4cfc2f858e88c52a9c19edf53) 0.0.8 (@jarilehtinen)
+- [5dea804](https://github.com/fireantjs/fireant/commit/5dea80431aa6464e227cd6ba6a8bedf3a40c909e) Added temporary logo (@jarilehtinen)
+
+### v0.0.7 (2017/02/16 19:20 +00:00)
+- [92e1ad3](https://github.com/fireantjs/fireant/commit/92e1ad3be1130d09edb45301a4a6e21b02384f2b) 0.0.7 (@jarilehtinen)
+- [e4ec843](https://github.com/fireantjs/fireant/commit/e4ec843596f202505de7df0e1817d93128f0122e) Refuse to write empty file and display warning (@jarilehtinen)
+- [9d30926](https://github.com/fireantjs/fireant/commit/9d3092692ce4c0f67416f987d8cd039c442010f4) Updated changelog (@jarilehtinen)
+
 ### v0.0.6 (2017/02/15 09:13 +00:00)
 - [95a5611](https://github.com/fireantjs/fireant/commit/95a5611fce7f932c0106784ca8df0a82dbe2eb03) 0.0.6 (@jarilehtinen)
 - [87933ac](https://github.com/fireantjs/fireant/commit/87933aca61151211e148f8a4b45e7c783701c214) Fixed mixed quotes (@jarilehtinen)
